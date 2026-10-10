@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fees | Adventure Escape SA</title><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<header><nav><a class="brand" href="index.html">Adventure Escape SA</a><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="overview.html">Overview</a></li><li><a class="active" href="fees.html">Fees</a></li><li><a href="contact.html">Contact</a></li></ul></nav></header><main>
+<h1>Calculate Fees</h1><p>Select your adventures and enter your group details to estimate the cost.</p>
+<form id="feeForm">
+<label for="cname">Customer name</label><input id="cname" required>
+<label for="cemail">Email address</label><input id="cemail" type="email" required>
+<h2>Select Adventures</h2><p>You can select more than one activity.</p><div id="list"></div>
+<h2>Number of Participants</h2>
+<label for="adults">Number of adults</label><input id="adults" type="number" min="0" value="1">
+<label for="kids">Number of children</label><input id="kids" type="number" min="0" value="0">
+<div class="card" style="margin-top:20px"><h3>Discount Information</h3><p>Demonstration rule: groups of 10 or more participants receive a 10% discount on the activity subtotal.</p></div>
+<button class="btn" type="submit">Calculate Fees</button>
+</form>
+<div id="out" aria-live="polite"></div>
+</main><footer>Explore. Experience. Escape. &copy; 2026 Adventure Escape SA</footer><script src="script.js"></script></body></html>
