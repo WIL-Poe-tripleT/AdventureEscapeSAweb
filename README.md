@@ -6,6 +6,7 @@ A multi-page website for Adventure Escape SA, a Western Cape company offering gu
 
 ## Pages
 
+
 | Page | File | What it does |
 | --- | --- | --- |
 | Home | `index.html` | Welcome banner and popular activities |
